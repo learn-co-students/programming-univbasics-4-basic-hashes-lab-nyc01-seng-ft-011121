@@ -1,16 +1,22 @@
 def new_hash
-  # return an empty hash
+my_new_hash = {}
 end
 
 def my_hash
-  # return a valid hash with any key/value pair of your choice
-end
+  hashes_are_cute = {
+  "name" => "Linda",
+  "adress" => "1100 Jefferson street Hoboken NJ"
+  }
+  end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  boss = {
+    :name => "Grace Hopper"
+  }
 end
-
 
 def id_hash_generator(number)
-  # return a hash with a key :id assigned to the provided number
-end
+iam_the_hash = {
+  :id => number
+}
+  end
